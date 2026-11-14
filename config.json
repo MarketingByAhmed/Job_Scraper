@@ -1,44 +1,95 @@
 {
   "_README": "Ahmed Ebrahem — marketing job tracker for Cairo, the Gulf and remote roles. Matching is case-insensitive substring on the JOB TITLE unless noted.",
-
   "profile": {
     "title": "Ahmed's Marketing Job Tracker",
-    "subtitle": "Cairo · Saudi Arabia · Qatar · UAE · Kuwait · Remote",
+    "subtitle": "Cairo · Saudi Arabia · Qatar · UAE · Kuwait · Europe remote",
     "emoji": "🎯"
   },
-
   "keywords": {
     "include": [
-      "brand manager", "brand strategist", "brand strategy", "brand specialist", "brand executive", "brand lead",
-      "assistant brand manager", "senior brand",
-      "creative strategist", "creative strategy", "strategic planner", "strategy planner", "brand planner",
-      "marketing manager", "marketing strategist", "marketing specialist", "marketing executive",
-      "marketing lead", "marketing coordinator", "marketing officer", "head of marketing",
-      "digital marketing", "growth marketing", "growth marketer", "performance marketing", "performance marketer",
-      "social media", "content strategist", "content strategy", "content marketing", "content manager",
-      "content lead", "content creator", "community manager", "communications specialist",
-      "communication and social media", "communication & social media"
+      "brand manager",
+      "brand strategist",
+      "brand strategy",
+      "brand specialist",
+      "brand executive",
+      "brand lead",
+      "assistant brand manager",
+      "senior brand",
+      "creative strategist",
+      "creative strategy",
+      "strategic planner",
+      "strategy planner",
+      "brand planner",
+      "marketing manager",
+      "marketing strategist",
+      "marketing specialist",
+      "marketing executive",
+      "marketing lead",
+      "marketing coordinator",
+      "marketing officer",
+      "head of marketing",
+      "digital marketing",
+      "growth marketing",
+      "growth marketer",
+      "performance marketing",
+      "performance marketer",
+      "social media",
+      "content strategist",
+      "content strategy",
+      "content marketing",
+      "content manager",
+      "content lead",
+      "content creator",
+      "community manager",
+      "communications specialist",
+      "communication and social media",
+      "communication & social media"
     ],
     "exclude": [
-      "intern", "internship", "trainee", "apprentice", "volunteer",
-      "sales representative", "telesales", "call center", "customer service",
-      "graphic designer", "motion graphic", "video editor", "photographer",
-      "developer", "engineer", "medical representative", "medical rep"
+      "intern",
+      "internship",
+      "trainee",
+      "apprentice",
+      "volunteer",
+      "sales representative",
+      "telesales",
+      "call center",
+      "customer service",
+      "graphic designer",
+      "motion graphic",
+      "video editor",
+      "photographer",
+      "developer",
+      "engineer",
+      "medical representative",
+      "medical rep"
     ],
     "fuzzy_seniority": [],
     "fuzzy_domain": [],
     "fuzzy_exclude": []
   },
-
   "search_terms": {
     "linkedin": [
-      "brand manager", "brand strategist", "creative strategist", "marketing manager",
-      "marketing strategist", "marketing specialist", "social media manager", "social media specialist",
-      "content strategist", "content marketing manager", "digital marketing manager", "growth marketing"
+      "brand manager",
+      "brand strategist",
+      "creative strategist",
+      "marketing manager",
+      "marketing strategist",
+      "marketing specialist",
+      "social media manager",
+      "social media specialist",
+      "content strategist",
+      "content marketing manager",
+      "digital marketing manager",
+      "growth marketing"
     ],
     "indeed": [
-      "brand manager", "brand strategist", "creative strategist", "marketing manager",
-      "marketing specialist", "social media manager"
+      "brand manager",
+      "brand strategist",
+      "creative strategist",
+      "marketing manager",
+      "marketing specialist",
+      "social media manager"
     ],
     "glassdoor": [],
     "ziprecruiter": [],
@@ -49,21 +100,60 @@
     "governmentjobs": [],
     "workday": []
   },
-
   "locations": {
     "linkedin": [
-      { "name": "Egypt",        "location": "Egypt",                "geoId": "106155005" },
-      { "name": "Saudi Arabia", "location": "Saudi Arabia",         "geoId": "100459316" },
-      { "name": "Qatar",        "location": "Qatar",                "geoId": "104170880" },
-      { "name": "UAE",          "location": "United Arab Emirates", "geoId": "104305776" },
-      { "name": "Kuwait",       "location": "Kuwait",               "geoId": "103239229" }
+      {
+        "name": "Egypt",
+        "location": "Egypt",
+        "geoId": "106155005"
+      },
+      {
+        "name": "Saudi Arabia",
+        "location": "Saudi Arabia",
+        "geoId": "100459316"
+      },
+      {
+        "name": "Qatar",
+        "location": "Qatar",
+        "geoId": "104170880"
+      },
+      {
+        "name": "UAE",
+        "location": "United Arab Emirates",
+        "geoId": "104305776"
+      },
+      {
+        "name": "Kuwait",
+        "location": "Kuwait",
+        "geoId": "103239229"
+      },
+      {
+        "name": "Europe (remote)",
+        "location": "European Union",
+        "geoId": "91000000"
+      }
     ],
     "indeed": [
-      { "location": "Cairo",  "country": "Egypt" },
-      { "location": "Riyadh", "country": "Saudi Arabia" },
-      { "location": "Doha",   "country": "Qatar" },
-      { "location": "Dubai",  "country": "United Arab Emirates" },
-      { "location": "Kuwait", "country": "Kuwait" }
+      {
+        "location": "Cairo",
+        "country": "Egypt"
+      },
+      {
+        "location": "Riyadh",
+        "country": "Saudi Arabia"
+      },
+      {
+        "location": "Doha",
+        "country": "Qatar"
+      },
+      {
+        "location": "Dubai",
+        "country": "United Arab Emirates"
+      },
+      {
+        "location": "Kuwait",
+        "country": "Kuwait"
+      }
     ],
     "glassdoor": [],
     "ziprecruiter": [],
@@ -71,59 +161,134 @@
     "hiring_cafe": [],
     "linkedin_partitions": {
       "states": [],
-      "high_volume": { "locations": [], "day_slices": true }
+      "high_volume": {
+        "locations": [],
+        "day_slices": true
+      }
     }
   },
-
   "location_filter": {
     "_comment": "A job is kept only if its location contains one of these.",
     "terms": [
-      "egypt", "cairo", "new cairo", "madinaty", "giza", "6th of october", "sheikh zayed",
-      "saudi arabia", "riyadh", "jeddah", "dammam", "khobar",
-      "qatar", "doha",
-      "united arab emirates", "dubai", "abu dhabi", "sharjah",
+      "egypt",
+      "cairo",
+      "new cairo",
+      "madinaty",
+      "giza",
+      "6th of october",
+      "sheikh zayed",
+      "saudi arabia",
+      "riyadh",
+      "jeddah",
+      "dammam",
+      "khobar",
+      "qatar",
+      "doha",
+      "united arab emirates",
+      "dubai",
+      "abu dhabi",
+      "sharjah",
       "kuwait",
-      "remote"
+      "remote",
+      "european union",
+      "emea",
+      "europe"
     ]
   },
-
-  "google_jobs": { "queries": [], "serpapi_api_key": "", "oxylabs_username": "", "oxylabs_password": "" },
-  "jobspy": { "proxies": [], "user_agent": "" },
-  "hiring_cafe": { "max_pages": 1 },
-
+  "google_jobs": {
+    "queries": [],
+    "serpapi_api_key": "",
+    "oxylabs_username": "",
+    "oxylabs_password": ""
+  },
+  "jobspy": {
+    "proxies": [],
+    "user_agent": ""
+  },
+  "hiring_cafe": {
+    "max_pages": 1
+  },
   "employers": {
     "_priority_comment": "Companies Ahmed especially wants — flagged on the dashboard and in the daily priority run.",
     "priority": [
-      "The Brand Company", "Tarek Nour", "Thndr", "Breadfast", "talabat", "Amazon",
-      "Marriott", "Ritz-Carlton", "St. Regis", "Thmanyah", "Trifid", "DDB", "Leo Burnett",
-      "Publicis", "JWT", "Ogilvy", "FP7", "Impact BBDO"
+      "The Brand Company",
+      "Tarek Nour",
+      "Thndr",
+      "Breadfast",
+      "talabat",
+      "Amazon",
+      "Marriott",
+      "Ritz-Carlton",
+      "St. Regis",
+      "Thmanyah",
+      "Trifid",
+      "DDB",
+      "Leo Burnett",
+      "Publicis",
+      "JWT",
+      "Ogilvy",
+      "FP7",
+      "Impact BBDO"
     ],
     "exclude": []
   },
-
   "priority_topics": {
     "terms": [
-      ["Brand strategy", "brand strateg|brand planning|brand positioning"],
-      ["Creative strategy", "creative strateg|strategic plann"],
-      ["Saudi / GCC market", "saudi|\\bksa\\b|\\bgcc\\b|gulf|mena"],
-      ["SaaS / tech", "\\bsaas\\b|software|startup|fintech"]
+      [
+        "Brand strategy",
+        "brand strateg|brand planning|brand positioning"
+      ],
+      [
+        "Creative strategy",
+        "creative strateg|strategic plann"
+      ],
+      [
+        "Saudi / GCC market",
+        "saudi|\\bksa\\b|\\bgcc\\b|gulf|mena"
+      ],
+      [
+        "SaaS / tech",
+        "\\bsaas\\b|software|startup|fintech"
+      ]
     ]
   },
-
   "role_categories": {
     "terms": [
-      ["Brand", "brand"],
-      ["Creative Strategy", "creative strateg|strategic plann|strategy plann"],
-      ["Marketing Manager", "marketing manager|head of marketing|marketing lead"],
-      ["Social Media", "social media|community manager"],
-      ["Content", "content"],
-      ["Growth / Performance", "growth|performance"],
-      ["Marketing (general)", "marketing|communication"]
+      [
+        "Brand",
+        "brand"
+      ],
+      [
+        "Creative Strategy",
+        "creative strateg|strategic plann|strategy plann"
+      ],
+      [
+        "Marketing Manager",
+        "marketing manager|head of marketing|marketing lead"
+      ],
+      [
+        "Social Media",
+        "social media|community manager"
+      ],
+      [
+        "Content",
+        "content"
+      ],
+      [
+        "Growth / Performance",
+        "growth|performance"
+      ],
+      [
+        "Marketing (general)",
+        "marketing|communication"
+      ]
     ]
   },
-
   "notify": {
     "min_fit": 75,
-    "weekly_digest": { "enabled": false, "days": 7 }
+    "weekly_digest": {
+      "enabled": false,
+      "days": 7
+    }
   }
 }
